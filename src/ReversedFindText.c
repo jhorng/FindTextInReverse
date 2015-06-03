@@ -7,7 +7,7 @@
  *Eg.,
  *  text       = hello, my name is Alladin
  *  wordToFind = lad
- *  The return value is 20
+ *  The return value is 18
  *
  * Input:
  *    test          contains a bunch of words
