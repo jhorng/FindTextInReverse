@@ -3,7 +3,7 @@
 
 /**
  * Find the first (partial) word in the text and return the position of 
- * the first letter.
+ * the first letter that is counted in reverse form.
  *Eg.,
  *  text       = hello, my name is Alladin
  *  wordToFind = lad
