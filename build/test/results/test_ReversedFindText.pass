@@ -1,0 +1,99 @@
+---
+:source:
+  :path: test
+  :file: test_ReversedFindText.c
+:successes:
+- :test: test_reversedFindText_given_A_find_A_should_return_minus_1
+  :line: 8
+  :message: ''
+- :test: test_reversedFindText_given_B_find_C_should_return_minus_1
+  :line: 12
+  :message: ''
+- :test: test_reversedFindText_given_AB_find_B_should_return_minus_1
+  :line: 16
+  :message: ''
+- :test: test_reversedFindText_given_BOYS_find_OY_should_return_0
+  :line: 20
+  :message: ''
+- :test: test_reversedFindText_given_BOYSH_find_OYS_should_return_0
+  :line: 24
+  :message: ''
+- :test: test_reversedFindText_given_BOSYSH_find_SH_should_return_3
+  :line: 28
+  :message: ''
+- :test: test_reversedFindText_given_BOSYSH_find_SX_should_return_minus_1
+  :line: 32
+  :message: ''
+- :test: test_reversedFindText_given_WORLDRL_find_RL_should_return_4
+  :line: 36
+  :message: ''
+- :test: test_reversedFindText_given_WORSDRL_find_RL_should_return_4
+  :line: 40
+  :message: ''
+- :test: test_reversedFindText_given_alladin_find_lad_should_return_1
+  :line: 44
+  :message: ''
+- :test: test_reversedFindText_given_alladin_find_las_should_return_minus_1
+  :line: 48
+  :message: ''
+- :test: test_reversedFindText_given_alladin_find_all_should_return_minus_1
+  :line: 52
+  :message: ''
+- :test: test_reversedFindText_given_RRARARATATUI_find_RARAT_should_return_minus_1
+  :line: 56
+  :message: ''
+- :test: test_reversedFindText_given_SAD_find_empty_should_return_minus_1
+  :line: 60
+  :message: ''
+- :test: test_reversedFindText_given_empty_find_SAD_should_return_minus_1
+  :line: 64
+  :message: ''
+- :test: test_reversedFindText_given_asfasfasfasd_find_fasd_should_return_7
+  :line: 68
+  :message: ''
+- :test: test_reversedFindText_given_Hello_my_name_is_Alladin_find_lad_should_return_18
+  :line: 72
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 17
+  :passed: 17
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Text = A
+- WordToFind = A
+- Text = B
+- WordToFind = C
+- Text = AB
+- WordToFind = A
+- Text = BOYS
+- WordToFind = OY
+- Text = BOYSH
+- WordToFind = OYS
+- Text = BOSYSH
+- WordToFind = SH
+- Text = BOSYSH
+- WordToFind = SX
+- Text = WORLDRL
+- WordToFind = RL
+- Text = WORSDRL
+- WordToFind = RL
+- Text = alladin
+- WordToFind = lad
+- Text = alladin
+- WordToFind = las
+- Text = alladin
+- WordToFind = all
+- Text = RRARARATATUI
+- WordToFind = RRARA
+- Text = SAD
+- 'WordToFind =  '
+- 'Text =  '
+- WordToFind = SAD
+- Text = wadwadwadwas
+- WordToFind = dwas
+- Text = Hello my name is Alladin
+- WordToFind = lad
+- ''
